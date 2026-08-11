@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CleanPro | Next-Gen Cleaning Services & Facility Care</title>
+  
+  <!-- Modern Fonts (Geist, Funnel Display, Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@500;700;800&family=Geist:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- Floating Framer-style Navbar -->
+  <header class="site-header" id="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon"><i class="fa-solid fa-sparkles"></i></div>
+        <span class="logo-text">CleanPro<span class="logo-dot">.</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#features" class="nav-link">Why Us</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Results</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-pill">
+          <span>Book a Clean</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- FRAMER HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Hero Left Column -->
+        <div class="hero-content">
+          <div class="hero-badge scroll-reveal">
+            <span class="badge-icon"><i class="fa-solid fa-star"></i></span>
+            <span>#1 Rated Cleaning Services</span>
+          </div>
+
+          <h1 class="hero-title scroll-reveal">
+            Pristine spaces.<br />
+            <span class="gradient-text">Effortless care.</span>
+          </h1>
+
+          <p class="hero-description scroll-reveal">
+            Experience spotless residential & commercial cleaning with our background-checked professionals, eco-safe products, and 100% satisfaction guarantee.
+          </p>
+
+          <div class="hero-actions scroll-reveal">
+            <a href="contact.html" class="btn btn-primary btn-lg btn-pill btn-glow">
+              <span>Book Your Service</span>
+              <i class="fa-solid fa-calendar-check"></i>
+            </a>
+            <a href="#services" class="btn btn-secondary btn-lg btn-pill">
+              <span>Explore Services</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+
+          <!-- Social Trust Bar -->
+          <div class="hero-trust scroll-reveal">
+            <div class="trust-avatars">
+              <span class="avatar av-1"><i class="fa-solid fa-user"></i></span>
+              <span class="avatar av-2"><i class="fa-solid fa-user"></i></span>
+              <span class="avatar av-3"><i class="fa-solid fa-user"></i></span>
+              <span class="avatar av-plus">+2k</span>
+            </div>
+            <div class="trust-rating">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="rating-text"><strong>4.9/5</strong> from 1,400+ reviews</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Framer Visual Card with Parallax Image & Floating Badges -->
+        <div class="hero-visual-wrapper scroll-reveal">
+          <div class="hero-card-frame" id="hero-card-frame">
+            <img 
+              src="ChatGPT Image Aug 11, 2026, 03_53_24 PM.png" 
+              alt="Professional Cleaning Team" 
+              class="hero-img" 
+              id="hero-img"
+            />
+            <div class="hero-card-overlay"></div>
+
+            <!-- Floating Framer Badges -->
+            <div class="float-badge badge-top-right">
+              <i class="fa-solid fa-shield-check icon-green"></i>
+              <div class="badge-text">
+                <span class="title">100% Vetted</span>
+                <span class="sub">Insured Cleaners</span>
+              </div>
+            </div>
+
+            <div class="float-badge badge-bottom-left">
+              <i class="fa-solid fa-leaf icon-emerald"></i>
+              <div class="badge-text">
+                <span class="title">Eco-Friendly</span>
+                <span class="sub">Non-Toxic Formula</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INFINITE MARQUEE TICKER -->
+    <section class="marquee-section">
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span><i class="fa-solid fa-sparkles"></i> Residential Maid Service</span>
+          <span><i class="fa-solid fa-sparkles"></i> Commercial Office Janitorial</span>
+          <span><i class="fa-solid fa-sparkles"></i> Deep Carpet Cleaning</span>
+          <span><i class="fa-solid fa-sparkles"></i> Move-in / Move-out Cleaning</span>
+          <span><i class="fa-solid fa-sparkles"></i> Exterior Window Washing</span>
+          <span><i class="fa-solid fa-sparkles"></i> Post-Construction Cleanup</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span><i class="fa-solid fa-sparkles"></i> Residential Maid Service</span>
+          <span><i class="fa-solid fa-sparkles"></i> Commercial Office Janitorial</span>
+          <span><i class="fa-solid fa-sparkles"></i> Deep Carpet Cleaning</span>
+          <span><i class="fa-solid fa-sparkles"></i> Move-in / Move-out Cleaning</span>
+          <span><i class="fa-solid fa-sparkles"></i> Exterior Window Washing</span>
+          <span><i class="fa-solid fa-sparkles"></i> Post-Construction Cleanup</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENTO FEATURES SECTION -->
+    <section class="bento-section" id="features">
+      <div class="container">
+        
+        <div class="section-header text-center scroll-reveal">
+          <span class="section-tag">WHY CHOOSE CLEANPRO</span>
+          <h2 class="section-title">Built for peace of mind</h2>
+          <p class="section-subtitle">
+            Modern cleaning tailored to your schedule with total transparency, safety, and speed.
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          
+          <!-- Bento Box 1 -->
+          <div class="bento-card card-large scroll-reveal">
+            <div class="bento-icon icon-blue"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Instant 60-Second Booking</h3>
+            <p>Select your service, choose a time slot, and get instant confirmation with transparent pricing.</p>
+            <div class="bento-graphic graphic-booking">
+              <div class="mini-tag"><i class="fa-solid fa-circle-check"></i> Confirmed in 30s</div>
+            </div>
+          </div>
+
+          <!-- Bento Box 2 -->
+          <div class="bento-card scroll-reveal">
+            <div class="bento-icon icon-green"><i class="fa-solid fa-user-shield"></i></div>
+            <h3>Vetted & Insured Staff</h3>
+            <p>Every cleaner undergoes background checks, skill assessments, and full insurance coverage.</p>
+          </div>
+
+          <!-- Bento Box 3 -->
+          <div class="bento-card scroll-reveal">
+            <div class="bento-icon icon-emerald"><i class="fa-solid fa-seedling"></i></div>
+            <h3>Eco-Conscious Chemistry</h3>
+            <p>Pet-safe, child-safe, non-toxic cleaning products that protect indoor air quality.</p>
+          </div>
+
+          <!-- Bento Box 4 -->
+          <div class="bento-card card-wide scroll-reveal">
+            <div class="bento-icon icon-purple"><i class="fa-solid fa-rotate"></i></div>
+            <div class="bento-text">
+              <h3>100% Satisfaction Guarantee</h3>
+              <p>If you're not entirely satisfied with any area we cleaned, we'll return within 24 hours to reclean it for free.</p>
+            </div>
+            <a href="contact.html" class="btn btn-outline-sm">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CLEANING RESULTS & GALLERY SHOWCASE -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        
+        <div class="section-header text-center scroll-reveal">
+          <span class="section-tag">OUR WORK IN ACTION</span>
+          <h2 class="section-title">Spotless Results You Can See</h2>
+          <p class="section-subtitle">Real spaces cleaned to perfection by our certified team.</p>
+        </div>
+
+        <div class="gallery-grid">
+          
+          <div class="gallery-card scroll-reveal">
+            <div class="gallery-img-wrapper">
+              <img src="cleaning_photo_1.png" alt="Clean Modern Living Room" class="gallery-img" />
+              <span class="gallery-badge">Residential Care</span>
+            </div>
+            <div class="gallery-content">
+              <h4>Modern Living Room & Window Facade</h4>
+              <p>Pristine hardwood floors and streak-free floor-to-ceiling glass paneling.</p>
+            </div>
+          </div>
+
+          <div class="gallery-card scroll-reveal">
+            <div class="gallery-img-wrapper">
+              <img src="cleaning_photo_2.png" alt="Clean Corporate Office" class="gallery-img" />
+              <span class="gallery-badge">Corporate Janitorial</span>
+            </div>
+            <div class="gallery-content">
+              <h4>Executive Office & Glass Partition Cleaning</h4>
+              <p>Medical-grade disinfection for executive suites and conference rooms.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES BENTO GRID -->
+    <section class="services-section" id="services">
+      <div class="container">
+        
+        <div class="section-header text-center scroll-reveal">
+          <span class="section-tag">OUR SERVICES</span>
+          <h2 class="section-title">Comprehensive Cleaning Solutions</h2>
+        </div>
+
+        <div class="services-grid">
+          
+          <div class="service-card scroll-reveal">
+            <div class="service-icon"><i class="fa-solid fa-house-chimney"></i></div>
+            <h4>Home & Apartment Cleaning</h4>
+            <p>Regular maintenance or deep cleaning for living rooms, kitchens, bedrooms, and bathrooms.</p>
+            <a href="contact.html" class="service-link">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="service-card scroll-reveal">
+            <div class="service-icon"><i class="fa-solid fa-building-user"></i></div>
+            <h4>Commercial & Office Cleaning</h4>
+            <p>Daily or weekly sanitization for corporate offices, co-working spaces, and retail stores.</p>
+            <a href="contact.html" class="service-link">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="service-card scroll-reveal">
+            <div class="service-icon"><i class="fa-solid fa-box-open"></i></div>
+            <h4>Move-In / Move-Out Service</h4>
+            <p>Thorough top-to-bottom sanitization ensuring landlords and new tenants get a pristine space.</p>
+            <a href="contact.html" class="service-link">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="service-card scroll-reveal">
+            <div class="service-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+            <h4>Deep Carpet & Upholstery</h4>
+            <p>Hot water extraction and steam cleaning that eliminates stains, allergens, and odors.</p>
+            <a href="contact.html" class="service-link">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- STATS COUNTER BANNER -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-banner scroll-reveal">
+          <div class="stat-box">
+            <span class="stat-number" data-target="10000">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Cleaned Spaces</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <span class="stat-number" data-target="99.4">0</span><span class="stat-plus">%</span>
+            <span class="stat-label">Client Retention</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Vetted Cleaners</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        
+        <div class="section-header text-center scroll-reveal">
+          <span class="section-tag">TESTIMONIALS</span>
+          <h2 class="section-title">Loved by homeowners & businesses</h2>
+        </div>
+
+        <div class="reviews-grid">
+          
+          <div class="review-card scroll-reveal">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">"CleanPro transformed our 30-person office space. The attention to detail on glass surfaces and desks is unmatched. Highly recommended!"</p>
+            <div class="review-author">
+              <div class="author-avatar"><i class="fa-solid fa-user-tie"></i></div>
+              <div class="author-info">
+                <strong>Sarah Jenkins</strong>
+                <span>Operations Director</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card scroll-reveal">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">"Booking online took less than a minute. The cleaning team arrived right on time and left my apartment looking brand new!"</p>
+            <div class="review-author">
+              <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="author-info">
+                <strong>Michael Chen</strong>
+                <span>Homeowner</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card scroll-reveal">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">"The eco-friendly supplies mean a lot to us because we have pets. Great communication, transparent pricing, and spotless results."</p>
+            <div class="review-author">
+              <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="author-info">
+                <strong>Emily Rodriguez</strong>
+                <span>Apartment Resident</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="cta-section" id="contact">
+      <div class="container">
+        <div class="cta-banner scroll-reveal">
+          <span class="cta-badge">GET STARTED TODAY</span>
+          <h2 class="cta-title">Ready for a cleaner, healthier space?</h2>
+          <p class="cta-desc">Book your service online in 60 seconds or request a custom corporate quotation.</p>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn btn-white btn-lg btn-pill">Schedule Now</a>
+            <a href="tel:18005550199" class="btn btn-outline-white btn-lg btn-pill"><i class="fa-solid fa-phone"></i> (800) 555-0199</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-sparkles"></i></div>
+          <span class="logo-text">CleanPro<span class="logo-dot">.</span></span>
+        </a>
+        <p>Premium, eco-friendly residential and commercial cleaning services.</p>
+      </div>
+
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">House Cleaning</a></li>
+            <li><a href="#services">Office Cleaning</a></li>
+            <li><a href="#services">Deep Sanitization</a></li>
+            <li><a href="#services">Carpet Cleaning</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#features">About Us</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container bottom-flex">
+        <p>&copy; 2026 CleanPro Inc. All rights reserved.</p>
+        <a href="#hero" class="back-to-top"><i class="fa-solid fa-arrow-up"></i> Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lenis & GSAP Libraries -->
+  <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
